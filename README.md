@@ -1,6 +1,13 @@
 # javascript-algorithms
 Testing javascript algorithms
 
+## Run Test
+Open your favorite Terminal and run this command.
+
+```sh
+$ npm test
+```
+
 ### Sum
 
 ### Sum of the Smallest Numbers
