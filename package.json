@@ -7,9 +7,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "jest-cli": "^19.0.2"
+    "jest-cli": "^19.0.2",
+    "ramda": "^0.24.0"
   },
   "jest": {
-    "testEnvironment" : "node"
+    "testEnvironment": "node"
   }
 }
