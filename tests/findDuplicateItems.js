@@ -5,4 +5,19 @@ const findDuplicateItems = (arr) => {
   return result(arr);
 }
 
-module.exports = findDuplicateItems;
+const findDuplicateItems2 = (numbers) => {
+  const result = []
+  for (i = 0; i < numbers.length; i++) {
+    for (j = i + 1; j < numbers.length; j++) {
+      if (numbers[i] === numbers[j]) {
+        result.push(numbers[i])
+      }
+    }
+  }
+  return result
+
+}
+
+module.exports = {
+  findDuplicateItems, findDuplicateItems2
+}
